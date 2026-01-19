@@ -66,7 +66,7 @@ const Support = () => (
   <SubPageLayout title="Support.exe">
     <p>[ CONNECTING TO CORE SUPPORT ]</p>
     <div className="bg-[#111] p-12 border border-[#333] text-center">
-        <p className="text-[#581676] mb-8 animate-pulse font-bold tracking-widest uppercase">>>> SYSTEM_READY_FOR_INPUT</p>
+        <p className="text-[#581676] mb-8 animate-pulse font-bold tracking-widest uppercase">{">>>"} SYSTEM_READY_FOR_INPUT</p>
         <p className="mb-12">Need assistance with your implementation? Our engineers are on standby.</p>
         <button className="bg-white text-black px-12 py-5 font-bold uppercase tracking-widest hover:bg-[#581676] hover:text-white transition-all">
             Open Terminal Case

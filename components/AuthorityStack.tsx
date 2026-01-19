@@ -148,7 +148,7 @@ export const AuthorityStack: React.FC = () => {
                     
                     <div className="mt-6 border-t border-[#333] pt-6 text-left opacity-80 group-hover:opacity-100 transition-opacity">
                         <p className="text-gray-400 text-sm leading-relaxed font-mono italic">
-                            <span className="text-[#581676] mr-2">>>></span>
+                            <span className="text-[#581676] mr-2">{">>>"}</span>
                             {layer.desc}
                         </p>
                     </div>
