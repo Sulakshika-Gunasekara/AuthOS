@@ -172,7 +172,7 @@ export const EvidencePage: React.FC = () => {
         <GlobeVisualization />
         <div className="relative z-10">
           <ScrambleTitle text="THE EVIDENCE" />
-          <p className="text-lg md:text-2xl text-gray-400 max-w-3xl mx-auto uppercase tracking-[0.2em] font-light">
+          <p className="text-lg md:text-2xl text-gray-900 max-w-3xl mx-auto uppercase tracking-[0.2em] font-light">
             20 Billion Views. $250M+ Revenue. <br/> 
             One Proprietary System.
           </p>
@@ -195,7 +195,7 @@ export const EvidencePage: React.FC = () => {
                  <div className="absolute top-0 left-0 w-full h-[1px] bg-white/10 animate-[scan_3s_linear_infinite]"></div>
               </div>
               <div className="space-y-6">
-                <span className="text-[#581676] font-mono text-xs tracking-widest uppercase">>>> PERSONNEL_RECORD_01</span>
+                <span className="text-[#581676] font-mono text-xs tracking-widest uppercase">{'>>>>'} PERSONNEL_RECORD_01</span>
                 <h3 className="text-4xl md:text-7xl font-bold text-white uppercase tracking-tighter">John Hyland</h3>
                 <p className="text-xl md:text-2xl text-gray-400 font-light leading-relaxed italic">
                     "The Architect. From Florida to NYC to LA. The strategist who realized that <span className="text-white">storytelling is the only scalable currency.</span>"
@@ -218,7 +218,7 @@ export const EvidencePage: React.FC = () => {
           <div className="slide flex-shrink-0 w-screen h-full flex items-center justify-center px-8 md:px-32 border-r border-[#333]">
             <div className="max-w-7xl w-full grid md:grid-cols-2 gap-16 items-center">
               <div className="order-2 md:order-1 space-y-6 text-right">
-                <span className="text-[#581676] font-mono text-xs tracking-widest uppercase">>>> PERSONNEL_RECORD_02</span>
+                <span className="text-[#581676] font-mono text-xs tracking-widest uppercase">{'>>>>'} PERSONNEL_RECORD_02</span>
                 <h3 className="text-4xl md:text-7xl font-bold text-white uppercase tracking-tighter">Sam Parham</h3>
                 <p className="text-xl md:text-2xl text-gray-400 font-light leading-relaxed italic">
                     "The Catalyst. From teenage entrepreneur to Global Parkour Champion. Proved that <span className="text-white">momentum is an engineered state.</span>"

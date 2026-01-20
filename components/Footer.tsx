@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
             >
                 Request Access
             </button>
-            <span className="text-[8px] text-gray-700 uppercase tracking-widest">© 2024 Authority Operating Systems. All Rights Reserved.</span>
+            <span className="text-[8px] text-gray-300 uppercase tracking-widest">© 2024 Authority Operating Systems. All Rights Reserved.</span>
         </div>
       </div>
     </footer>
