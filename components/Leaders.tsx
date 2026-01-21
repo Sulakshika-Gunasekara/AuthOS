@@ -9,7 +9,7 @@ const personas = [
     title: "FOUNDERS",
     subtext: "Building leverage",
     icon: (
-      <svg className="w-6 h-6" fill="#242025ff" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-10 h-10" fill="#242025ff" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 21h18M3 10h18M5 10v11M9 10v11M15 10v11M19 10v11M3 10l9-7 9 7" />
       </svg>
     ),
@@ -18,7 +18,7 @@ const personas = [
     title: "OPERATORS",
     subtext: "Scaling credibility",
     icon: (
-      <svg className="w-6 h-6" fill="#242025ff" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-10 h-10" fill="#242025ff" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
         <circle cx="12" cy="12" r="3" strokeWidth="1.5" />
       </svg>
@@ -28,7 +28,7 @@ const personas = [
     title: "CREATORS",
     subtext: "Seeking authority",
     icon: (
-      <svg className="w-6 h-6" fill="#242025ff" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-10 h-10" fill="#242025ff" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
       </svg>
     ),
@@ -37,7 +37,7 @@ const personas = [
     title: "STRATEGISTS",
     subtext: "& Advisors",
     icon: (
-      <svg className="w-6 h-6" fill="#242025ff" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-10 h-10" fill="#242025ff" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 2L9 5h6l-3-3zM15 5H9l-1 5h8l-1-5zM12 10v6M17 16H7a2 2 0 00-2 2v2h14v-2a2 2 0 00-2-2z" />
       </svg>
     ),
@@ -151,7 +151,7 @@ export const Leaders: React.FC = () => {
         <div className="text-center mb-20">
           <h2 
             ref={titleRef}
-            className="text-purple-700 text-sm font-bold uppercase tracking-[1.4em] mb-4"
+            className="text-purple-700 text-lg font-bold uppercase tracking-[1.4em] mb-4"
             style={{ perspective: '1000px' }}
           >
             {'WHO IS THIS FOR?'.split('').map((char, i) => (
@@ -187,7 +187,7 @@ export const Leaders: React.FC = () => {
                 {persona.title}
               </h4>
 
-              <p className="text-gray-600 uppercase text-[12px] tracking-widest font-mono opacity-90">
+              <p className="text-gray-600 uppercase text-md tracking-widest font-mono opacity-90">
                 {persona.subtext}
               </p>
             </div>

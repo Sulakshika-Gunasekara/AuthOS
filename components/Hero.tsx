@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import sampleVideo from '/sample.mp4';
 
 export const Hero: React.FC = () => {
   const headlineRef = useRef<HTMLHeadingElement>(null);
@@ -71,7 +72,7 @@ export const Hero: React.FC = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src="/sample.mp4" type="video/mp4" />
+        <source src={sampleVideo} type="video/mp4" />
       </video>
 
       {/* Dark Overlay */}

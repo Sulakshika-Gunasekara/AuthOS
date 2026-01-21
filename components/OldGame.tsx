@@ -143,13 +143,13 @@ export const OldGame: React.FC = () => {
             ref={noiseRef}
             className="bg-[#0A0A0A] p-8 md:p-12 flex flex-col justify-center transition-all duration-500"
           >
-            <h4 className="text-xs uppercase tracking-widest text-gray-600 mb-6">01. THE NOISE</h4>
+            <h4 className="text-lg uppercase tracking-widest text-gray-600 mb-6">01. THE NOISE</h4>
             <div className="space-y-4">
               <p className="noise-item text-3xl md:text-5xl text-gray-700 font-light line-through decoration-gray-800">Reactive Posting</p>
               <p className="noise-item text-3xl md:text-5xl text-gray-700 font-light line-through decoration-gray-800">Vanity Metrics</p>
               <p className="noise-item text-3xl md:text-5xl text-gray-700 font-light line-through decoration-gray-800">Burnout</p>
             </div>
-            <p className="description-text mt-12 text-sm text-gray-600 max-w-xs uppercase leading-relaxed font-mono">
+            <p className="description-text mt-12 text-base text-gray-600 max-w-xs uppercase leading-relaxed font-mono">
               The cycle of constant production without systemized leverage leads to inevitable obsolescence.
             </p>
           </div>
@@ -159,13 +159,13 @@ export const OldGame: React.FC = () => {
             ref={signalRef}
             className="bg-[#0A0A0A] p-8 md:p-12 flex flex-col justify-center transition-all duration-500"
           >
-            <h4 className="text-xs uppercase tracking-widest text-[#581676] mb-6 font-bold">02. THE SIGNAL</h4>
+            <h4 className="text-lg uppercase tracking-widest text-[#581676] mb-6 font-bold">02. THE SIGNAL</h4>
             <div className="space-y-4">
               <p className="signal-item text-3xl md:text-5xl text-white font-bold">Strategic Series</p>
               <p className="signal-item text-3xl md:text-5xl text-white font-bold">Victory Metrics</p>
               <p className="signal-item text-3xl md:text-5xl text-white font-bold">Empire</p>
             </div>
-            <p className="description-text mt-12 text-sm text-gray-400 max-w-xs uppercase leading-relaxed font-mono">
+            <p className="description-text mt-12 text-base text-gray-400 max-w-xs uppercase leading-relaxed font-mono">
               Engineering distribution loops that scale independently of your manual effort.
             </p>
           </div>

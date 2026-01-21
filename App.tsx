@@ -98,12 +98,12 @@ const App: React.FC = () => {
       <div className="bg-[#0A0A0A] selection:bg-[#581676] selection:text-white min-h-screen flex flex-col">
         <header className="fixed top-0 left-0 w-full z-[100] border-b border-[#333] bg-[#0A0A0A]/80 backdrop-blur-md py-4 px-8 flex justify-between items-center">
           <Link to="/" className="font-bold text-xl tracking-tighter">AuthorityOS™</Link>
-          <nav className="hidden md:flex gap-8 text-xs uppercase tracking-[0.2em] text-gray-400">
+          <nav className="hidden md:flex gap-8 text-base uppercase tracking-[0.2em] text-gray-400">
             <Link to="/" className="hover:text-white transition-colors">Target</Link>
             <Link to="/evidence" className="hover:text-white transition-colors">Evidence</Link>
             <Link to="/system" className="hover:text-white transition-colors">System</Link>
             <Link to="/manifesto" className="hover:text-white transition-colors">Manifesto</Link>
-            <Link to="/access" className="hover:text-white transition-colors underline decoration-[#581676] uppercase text-xs tracking-[0.2em]">Access</Link>
+            <Link to="/access" className="hover:text-white transition-colors uppercase text-base tracking-[0.2em]">Access</Link>
           </nav>
         </header>
         

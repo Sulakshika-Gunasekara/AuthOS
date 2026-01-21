@@ -175,12 +175,12 @@ export const AuthorityStack: React.FC = () => {
                 </div>
 
                 <div className="relative z-10">
-                    <span className="text-[10px] uppercase tracking-[0.4em] text-purple-900 block mb-4">LAYER 0{layer.id}</span>
+                    <span className="text-lg uppercase tracking-[0.4em] text-purple-900 block mb-4">LAYER 0{layer.id}</span>
                     <h3 className="text-3xl md:text-5xl font-bold tracking-tighter mb-2 transition-transform duration-500 text-left text-gray-900">{layer.title}</h3>
-                    <p className="text-gray-600 uppercase text-xs tracking-[0.2em] mb-8 text-left font-bold">{layer.sub}</p>
+                    <p className="text-gray-600 uppercase text-lg tracking-[0.2em] mb-8 text-left font-bold">{layer.sub}</p>
                     
                     <div className="mt-6 border-t border-gray-200 pt-6 text-left opacity-80 group-hover:opacity-100 transition-opacity">
-                        <p className="text-gray-600 text-sm leading-relaxed font-mono italic">
+                        <p className="text-gray-600 text-lg leading-relaxed font-mono italic">
                             <span className="text-purple-900 mr-2">{'>>>>'}</span>
                             {layer.desc}
                         </p>

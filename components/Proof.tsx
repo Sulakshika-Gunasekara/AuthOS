@@ -152,7 +152,7 @@ export const Proof: React.FC = () => {
                 <span className="stat-value">0</span>
                 <span className="text-purple-900">{stat.suffix}</span>
               </div>
-              <p className="text-xs uppercase tracking-widest text-gray-800 font-mono group-hover:text-black transition-colors duration-500">
+              <p className="text-lg uppercase tracking-widest text-gray-400 font-mono group-hover:text-black transition-colors duration-500">
                 {stat.label}
               </p>
             </div>
@@ -160,8 +160,8 @@ export const Proof: React.FC = () => {
         </div>
 
         <div className="bg-gray-950 py-12 text-center rounded-xl">
-          <p className="text-gray-400 text-sm tracking-widest uppercase mb-8">Ready to initiate?</p>
-          <button className="bg-white text-black px-12 py-5 font-bold uppercase tracking-widest rounded-xl hover:shadow-[0_0_30px_rgba(88,22,118,0.6)] hover:bg-purple-700 hover:text-white transition-all duration-500">
+          <p className="text-gray-400 text-lg tracking-widest uppercase mb-8">Ready to initiate?</p>
+          <button className="bg-white text-black px-12 py-5 font-bold uppercase tracking-widest rounded-xl hover:shadow-[0_0_30px_rgba(88,22,118,0.6)] hover:bg-purple-900 hover:text-white transition-all duration-500">
             Request Integration Access
           </button>
         </div>
